@@ -79,10 +79,10 @@ ready(function(){
                 });
             }
 
-        //clearStickyNotes werkt nog niet
+        /*clearStickyNotes werkt nog niet
             var clearAll = document.querySelectorAll('clear');
         document.getElementsByClassName("clear").addEventListener("click", clearAll);
-        ApplicationDbContext.clearAll();
+        ApplicationDbContext.clearAll();*/
 
 
         
