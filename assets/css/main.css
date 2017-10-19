@@ -1,0 +1,121 @@
+body{
+    background: lightgray;
+    font-size: 100%;
+    font-family:arial,sans-serif;
+    margin: 3em;
+}
+
+h2{
+    font-size:270%;
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+}
+
+h3{
+    font-size:110%;
+    text-decoration: underline;
+}
+
+h4{
+    font-size:230%;
+    font-style: bold;
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+}
+
+.makeNote{
+    margin: auto;
+    width: 50%;
+   
+    padding: 10px;
+}
+.stickyNoteResult{
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-size:270%;
+    background-color: yellow;
+    width: 16rem;
+    height: 16rem;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    margin: 1em;
+    padding: 1%;
+    float: left;
+    
+    
+
+    -o-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    position:relative;
+    top:5px;
+}
+
+
+.stickyNoteResult:hover{
+    -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    position:relative;
+    z-index:5;
+   
+}
+
+.text{
+    
+    font-size:150%;
+    font-style: bold;
+}
+
+.id{
+    font-size:40%;
+    position: fixed;
+  
+}
+
+.updateNote{
+    width:5rem; 
+    height:2rem; 
+
+    position: fixed;
+    margin-top: 20%;
+    margin-left:55%;
+
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-style: bold;
+    font-size:90%;
+    
+    border: none;
+    background-color:transparent;
+
+}
+
+.updateNote:hover{
+    color:green;
+}
+
+.deleteNote{
+    width:5rem; 
+    height:2rem; 
+    font-size:90%;
+
+    position: fixed;
+    margin-top: 20%;
+    margin-left:-5%;
+
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-style: bold;
+
+    border: none;
+    background-color:transparent;
+    
+}
+
+.deleteNote:hover{
+    color:red;
+}
