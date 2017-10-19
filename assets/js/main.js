@@ -59,7 +59,7 @@ ready(function(){
                 deleteNote[i].addEventListener('click', function (event) {
                     
                     var id = parseInt(this.id);
-                    const deleted = ApplicationDbContext.deleteStickyNoteById(id);
+                    ApplicationDbContext.deleteStickyNoteById(id);
                 });
             }
 
@@ -74,7 +74,7 @@ ready(function(){
                         var id = parseInt(this.id);
                         sn = ApplicationDbContext.getStickyNoteById(id);
                         sn.message = message;
-                        const updated = ApplicationDbContext.updateStickyNote(sn);
+                        ApplicationDbContext.updateStickyNote(sn);
                     
                 });
             }
